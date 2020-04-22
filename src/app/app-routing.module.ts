@@ -1,7 +1,20 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path: '',
+    component: LandingPageComponent
+  }, {
+    path: 'projects',
+    component: ProjectsComponent
+  },{
+    path: '**',
+    redirectTo: ''
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

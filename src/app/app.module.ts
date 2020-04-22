@@ -3,14 +3,25 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
+import { MatToolbarModule, MatButtonModule } from '@angular/material';
+import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+
+const MATERIAL_IMPORTS = [MatToolbarModule, MatButtonModule]
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LandingPageComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    ...MATERIAL_IMPORTS
   ],
   providers: [],
   bootstrap: [AppComponent]
