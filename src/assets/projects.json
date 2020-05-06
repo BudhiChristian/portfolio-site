@@ -1,0 +1,18 @@
+[
+    {
+        "title": "NER Annotation Suite",
+        "descriptions": [
+            "A simple application for annotating data to feed into NER training."
+        ],
+        "links": [
+            {
+                "name": "Website",
+                "ref": "http://christianbudhi.com/projects/ner-annotation-suite/about"
+            },
+            {
+                "name": "Github",
+                "ref": "https://github.com/BudhiChristian/NER-Annotation-Suite"
+            }
+        ]
+    }
+]

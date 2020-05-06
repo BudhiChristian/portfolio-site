@@ -1,7 +1,7 @@
 <div class="projects-container">
-    <div>
-        <h2>NER Annotation Suite</h2>
-        <p>A simple application for annotating data to feed into NER training.</p>
-        <a mat-raised-button [href]="baseRef + '/ner-annotation-suite'">link</a>
+    <div *ngFor='let project of projects'>
+        <h2>{{project.title}}</h2>
+        <p *ngFor='let description of project.descriptions'>{{description}}</p>
+        <a *ngFor='let link of project.links' mat-raised-button [href]='link.ref'>{{link.name}}</a>
     </div>
 </div>
