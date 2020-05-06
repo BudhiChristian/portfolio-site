@@ -17,5 +17,19 @@
                 "ref": "https://github.com/BudhiChristian/NER-Annotation-Suite"
             }
         ]
+    },
+    {
+        "title": "Node + Jenkins CI/CD Pipeline",
+        "descriptions": [
+            "This portfolio along with some other projects listed here are hosted on an Express server using Node as a backend and an Amazon EC2 as a platform.",
+            "A Continuous Integration/ Continuous Deployment pipeline has also been established using Jenkins so that any changes to the master version of the code will reflect as soon as they are merged in github."
+        ],
+        "image": "assets/jenkins.PNG",
+        "links": [
+            {
+                "name": "Github",
+                "ref": "https://github.com/BudhiChristian/Portfolio-Server"
+            }
+        ]
     }
 ]
