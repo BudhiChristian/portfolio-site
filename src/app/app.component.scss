@@ -1,5 +1,5 @@
 .application-header {
-    height: 64px;
+    height: 3rem;
     padding: 0 3rem;
     
     position: fixed;
@@ -10,8 +10,8 @@
 
 .application-container {
     overflow: auto;
-    margin-top: 64px;
-    height: calc(100% - 64px)
+    margin-top: 3rem;
+    height: calc(100% - 3rem)
 }
 
 .application-name {

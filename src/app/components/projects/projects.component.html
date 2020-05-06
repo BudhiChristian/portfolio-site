@@ -1,7 +1,14 @@
 <div class="projects-container">
-    <div *ngFor='let project of projects'>
+    <div *ngFor='let project of projects' class='project-container'>
         <h2>{{project.title}}</h2>
-        <p *ngFor='let description of project.descriptions'>{{description}}</p>
-        <a *ngFor='let link of project.links' mat-raised-button [href]='link.ref'>{{link.name}}</a>
+        <div class='project-content'>
+            <div>
+                <p *ngFor='let description of project.descriptions'>{{description}}</p>
+            </div>
+            <img *ngIf='project.image' [src]='project.image' width='100px'>
+        </div>
+        <div class='link-range'>
+            <a color='primary' *ngFor='let link of project.links' mat-raised-button [href]='link.ref'>{{link.name}}</a>
+        </div>
     </div>
 </div>

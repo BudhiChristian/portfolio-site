@@ -2,12 +2,15 @@
     {
         "title": "NER Annotation Suite",
         "descriptions": [
-            "A simple application for annotating data to feed into NER training."
+            "Named Entity Recognition (NER) is a natural language processing task whose goal is to identify and classify parts of unstructured text in order to further understand and processes data.",
+            "A major effort in creating an NER model is annotating a corpus of text that will be fed into the machine learning process. This application is a solution that streamlines this training step by providing a simple yet flexible user interface with tools to help integrate the data into your system.",
+            "This website utilizes Angular 8 to create a single-page application that uses Angular Material for design and is hosted on an Express server using Node on an Amazon EC2."
         ],
+        "image": "assets/ner-annotation-suite.PNG",
         "links": [
             {
                 "name": "Website",
-                "ref": "http://christianbudhi.com/projects/ner-annotation-suite/about"
+                "ref": "http://christianbudhi.com/projects/ner-annotation-suite"
             },
             {
                 "name": "Github",

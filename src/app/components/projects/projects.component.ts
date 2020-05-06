@@ -17,11 +17,8 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit() {
     this.http.get('assets/projects.json').subscribe((res: ProjectInfo[]) => {
-      console.log(res)
       this.projects = res;
     })
-    this.baseRef = window.location.href;
-
   }
 
 }
