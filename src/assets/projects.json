@@ -6,7 +6,7 @@
             "A major effort in creating an NER model is annotating a corpus of text that will be fed into the machine learning process. This application is a solution that streamlines this training step by providing a simple yet flexible user interface with tools to help integrate the data into your system.",
             "This website utilizes Angular 8 to create a single-page application that uses Angular Material for design and is hosted on an Express server using Node on an Amazon EC2."
         ],
-        "image": "assets/ner-annotation-suite.PNG",
+        "image": "https://christian-budhi-hosting.s3.amazonaws.com/portfolio/ner-annotation-suite.PNG",
         "links": [
             {
                 "name": "Website",
@@ -24,7 +24,7 @@
             "This portfolio along with some other projects listed here are hosted on an Express server using Node as a backend and an Amazon EC2 as a platform.",
             "A Continuous Integration/ Continuous Deployment pipeline has also been established using Jenkins so that any changes to the master version of the code will reflect as soon as they are merged in github."
         ],
-        "image": "assets/jenkins.PNG",
+        "image": "https://christian-budhi-hosting.s3.amazonaws.com/portfolio/jenkins.PNG",
         "links": [
             {
                 "name": "Github",
