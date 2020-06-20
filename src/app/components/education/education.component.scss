@@ -1,6 +1,6 @@
 @import 'src/styles.scss';
 
-.experience-entry {
+.education-entry {
     margin: 0.5rem 0rem;
     padding: 0.5rem;
     border-radius: 0.2rem;
@@ -15,8 +15,4 @@ h3, h4 {
 .title-info {
     display:flex;
     justify-content: space-between;
-}
-
-.entry-description {
-    padding-left: 2rem;
 }

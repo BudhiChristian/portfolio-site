@@ -1,0 +1,11 @@
+<div class="education-container">
+    <div class="education-entry" *ngFor="let entry of educationInformation">
+        <div class="title-info">
+            <h3>{{entry.institution}}</h3>
+            <h4>{{entry.period}}</h4>
+        </div>
+        <div>
+            {{entry.description}}
+        </div>
+    </div>
+</div>
