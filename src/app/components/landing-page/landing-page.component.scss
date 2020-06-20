@@ -2,7 +2,7 @@
 
 .landing-container {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 1rem auto;
 }
 .personal-description {
     display: flex;
@@ -15,6 +15,15 @@
 
 .personal-description>*:last-child {
     padding-left: 0.5rem;
+}
+
+
+a:link {
+    color:  mat-color($primary, default);
+}
+
+a:visited {
+    color:  mat-color($primary, default);
 }
 
 .landing-container h1,
