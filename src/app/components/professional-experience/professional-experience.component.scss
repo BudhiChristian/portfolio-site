@@ -1,0 +1,22 @@
+@import 'src/styles.scss';
+
+.professional-experience-container {
+    margin: 0.5rem 0rem;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    background-color: mat-color($accent);
+    color: mat-color($accent, default-contrast);
+    box-shadow: 0px 1px 2px #00000099;
+}
+
+h3, h4 {
+    margin: 0;
+}
+.title-info {
+    display:flex;
+    justify-content: space-between;
+}
+
+.entry-description {
+    padding-left: 2rem;
+}

@@ -8,7 +8,6 @@ import { ProjectInfo } from 'src/app/domain/project.interface';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
-  baseRef: string = '';
   projects: ProjectInfo[];
 
   constructor(

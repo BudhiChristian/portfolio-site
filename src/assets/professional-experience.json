@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Full-Stack Software Engineer - UST Global Inc - Full-time Contractor",
+        "period": "August 2018 - Present",
+        "description": "Client-side contract work as a Software Engineer for a Fortune 500 healthcare company designing and developing a natural language search engine for a client’s medical benefits along with internal tools to aid in creating a health domain ontology for understanding the intent of a user.",
+        "roles": [
+            {
+                "title": "Full-Stack Developer for client search engine API and internal applications and testing",
+                "responsibilities": [
+                    "Worked on a health benefit search engine from the project’s conception, centered around Stanford’s Core NLP Engine.",
+                    "Collaborated with project managers as the main UI developer to design and create internal applications to manage data and validate systems using Angular 6+ as the front-end, Java 8 as the back-end, and MongoDB and Oracle SQL for data storage.",
+                    "Utilized Spring Boot and other java libraries such as Spring JPA and Hibernate to rapidly develop scalable RESTful APIs, and developed a simple security package using Spring AOP to allow APIs in a microservice architecture to safely interface with user applications.",
+                    "Deployed applications in a bare metal Linux environment manually during the POC phase before eventually migrating applications to a CI/CD Docker environment in production. "
+                ]
+            }, {
+                "title": "ML/NLP Systems Engineer for improving client search engine", 
+                "responsibilities": [
+                    "Designed an in-house machine learning system to replace and improve beyond the initial Stanford solution.",
+                    "Developed a machine learning model for understanding text at the word level, utilizing Python libraries such as FastText and Gensim to create a natural language ontology.",
+                    "Created a natural language multi-intent model using Tensorflow to assist the search engine in understanding a user’s search intent.",
+                    "Furthered the machine learning system’s understanding through entity recognition using CRF++ and NLTK.",
+                    "Implemented an automated system for training and deploying machine learning models using Flask and the Advanced Python Scheduler."
+                ]
+            }
+        ]
+    }
+]

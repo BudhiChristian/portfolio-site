@@ -8,6 +8,7 @@ import { MatToolbarModule, MatButtonModule } from '@angular/material';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ProfessionalExperienceComponent } from './components/professional-experience/professional-experience.component';
 
 const MATERIAL_IMPORTS = [MatToolbarModule, MatButtonModule]
 
@@ -16,7 +17,8 @@ const MATERIAL_IMPORTS = [MatToolbarModule, MatButtonModule]
   declarations: [
     AppComponent,
     LandingPageComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ProfessionalExperienceComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,17 @@
+<div class="professional-experience-container">
+    <div class="experience-entry" *ngFor="let entry of entries">
+        <div class="title-info">
+            <h3>{{entry.title}}</h3>
+            <h4>{{entry.period}}</h4>
+        </div>
+        <div class="entry-description">
+            <p>{{entry.description}}</p>
+            <ng-container *ngFor="let role of entry.roles">
+                <p>{{role.title}}</p>
+                <ul>
+                    <li *ngFor="let responsibility of role.responsibilities">{{responsibility}}</li>
+                </ul>
+            </ng-container>
+        </div>
+    </div>
+</div>
