@@ -7,9 +7,6 @@ const routes: Routes = [
   {
     path: '',
     component: LandingPageComponent
-  }, {
-    path: 'projects',
-    component: ProjectsComponent
   },{
     path: '**',
     redirectTo: ''
