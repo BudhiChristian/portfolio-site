@@ -19,6 +19,20 @@
         ]
     },
     {
+        "title": "ML Training Messaging Queue",
+        "descriptions": [
+            "Training a machine learning model can take up a lot of time and resources from a machine. Completing a training session can take anywhere from a couple of minutes to hours or even days, and some models may require high power machines to execute training efficiently.",
+            "This project is meant to demonstrate how you can utilize Docker to easiliy containerize and deploy training workers and use RabbitMQ to queue and manage training jobs to distribute among those workers."
+        ],
+        "image": "https://christian-budhi-hosting.s3.amazonaws.com/portfolio/training_queue_messaging.PNG",
+        "links": [
+            {
+                "name": "Github",
+                "ref": "https://github.com/BudhiChristian/MLTrainingMessagingQueue"
+            }
+        ]
+    },
+    {
         "title": "Node + Jenkins CI/CD Pipeline",
         "descriptions": [
             "This portfolio along with some other projects listed here are hosted on an Express server using Node as a backend and an Amazon EC2 as a platform.",
